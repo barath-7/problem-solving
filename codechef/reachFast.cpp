@@ -12,10 +12,10 @@ int main() {
     //optimal approach
     int diff = abs(x-y);
     if(diff%k == 0){
-        cout<<diff<<endl;
+        cout<<(diff/k)<<endl;
     }
     else{
-        cout<<diff+1<<endl;
+        cout<<((diff/k)+1)<<endl;
         /*
         if diff is not completely divisible by k it will leave a reminder which will always be less than k so to travel remaining distance user has to a one jump (because every jump user goes k steps forward)
         */
